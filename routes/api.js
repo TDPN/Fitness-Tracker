@@ -44,4 +44,11 @@ module.exports = function (app) {
                 res.status(400).json(err)
             })
     })
+    app.delete("/api/posts/:id", (req, res) => {
+        Workout.deleteOne({ 
+            id: req.params.id
+        }).then(deleteworkout => {
+          res.json(deleteworkout);
+        });
+      });
 };
