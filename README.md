@@ -8,7 +8,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 ```
 
 ## Heroku Link
-*https://workout-tracker-dvasquez4155.herokuapp.com/
+https://f1tness-tracker.herokuapp.com/
 
 ## Installation
 ```npm i```
